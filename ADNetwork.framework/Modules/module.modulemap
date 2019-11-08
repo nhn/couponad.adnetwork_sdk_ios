@@ -1,0 +1,6 @@
+framework module ADNetwork {
+  umbrella header "ADNetwork.h"
+
+  export *
+  module * { export * }
+}
