@@ -1,6 +1,9 @@
 # 쿠폰 광고 SDK
 --------
 
+## History
+* [ChangeLog](https://github.com/nhn/couponad.adnetwork_sdk_ios/blob/master/CHANGELOG.md)
+
 ## 사용법
 
 #### 1. 다운로드
