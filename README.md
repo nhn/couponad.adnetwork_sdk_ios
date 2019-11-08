@@ -5,7 +5,7 @@
 
 #### 1. 다운로드
 * DownLoad
-    * [CouponAD_ADNetwork](https://github.com/nhn/couponad.adnetwork_sdk_ios/archive/master.zip)
+    * [Couponad_ADNetwork](https://github.com/nhn/couponad.adnetwork_sdk_ios/archive/master.zip)
     
 #### 2. Cocoapods
 * Cocoapods 사용
