@@ -37,7 +37,7 @@
       - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         // Override point for customization after application launch.
         ...
-        // 발급받은 PUBID (Test : sdktestalpha)
+        // 발급받은 PUBID (Test : sdktestreal)
         // SDK 초기화
         [ADNetwork config:[[ADConfig alloc] initWith:pubId]];
         ...
