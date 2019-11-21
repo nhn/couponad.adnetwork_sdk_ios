@@ -24,6 +24,6 @@ FOUNDATION_EXPORT const unsigned char ADNetworkVersionString[];
 
 + (void)config:(ADConfig *_Nonnull)config;
 
-+ (void)isNewBadge:(void (^ _Nonnull)(BOOL isBadge))completionHandler;
++ (void)getBadgeType:(void (^ _Nonnull)(NSString * _Nullable badgeType))completionHandler;
 
 @end
