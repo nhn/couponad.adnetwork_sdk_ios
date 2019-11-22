@@ -29,8 +29,7 @@
       
 #### 3. 앱 인터넷 허용 및 위치 Description 작성
 * info.plist
-      ```
-      
+
       // http 통신 허용
       <key>NSAppTransportSecurity</key>
       <dict>
@@ -45,7 +44,8 @@
       <string>내 위치를 확인하기 위해 위치 정보에 접근하려고 합니다.</string>
       <key>NSLocationWhenInUseUsageDescription</key>
       <string>내 위치를 확인하기 위해 위치 정보에 접근하려고 합니다.</string>
-      ```
+      
+      
 #### 4. Objective-C 프로젝트 SDK 사용법
 * Source
     * AppDelegate.m
