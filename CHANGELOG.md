@@ -3,7 +3,7 @@
 -------
 
 
-## v: [1.0.0](https://github.com/nhn/couponad.adnetwork_sdk_ios/releases/tag/1.0.0) / 2019-11-8
+## v: [1.0.1](https://github.com/nhn/couponad.adnetwork_sdk_ios/releases/tag/1.0.1) / 2019-11-22
 
 * 릴리즈 - 2019-11-08 금
 * iOS 9 이상 지원
