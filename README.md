@@ -18,7 +18,7 @@
       ```
     * Podfile
       ```
-      pod 'Couponad_ADNetwork', '~>1.0.0'
+      pod 'Couponad_ADNetwork', '~> 1.0.0'
       ```
     * Pod install
       ```
@@ -89,14 +89,8 @@
             ```
     * 배지 여부 가져오기
       ```
-      [ADNetwork isNewBadge:^(BOOL isBadge) {
-          if (isBadge) {
-              // 배지가 있을 경우
-              // 각 제휴 앱에서의 해동
-              // ex) 특정 준비한 (dot) 이미지를 보여준다.
-          } else {
-              // 배지가 없을 경우
-          }
+      [ADNetwork getBadgeType:^(NSString * _Nullable badgeType) {
+          // badgeType의 string을 원하는 방법으로 활용
       }];
       ```
 
@@ -150,13 +144,7 @@
           ```
     * 배지 여부 가져오기
       ```
-      ADNetwork.isNewBadge { (isBadge) in
-          if (isBadge) {
-              // 배지가 있을 경우
-              // 각 제휴 앱에서의 해동
-              // ex) 특정 준비한 (dot) 이미지를 보여준다.
-          } else {
-              // 배지가 없을 경우
-          }
+      ADNetwork.getBadgeType { (badgeType) in
+         // badgeType의 string을 원하는 방법으로 활용
       }
       ```
