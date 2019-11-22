@@ -30,6 +30,7 @@
 #### 3. 앱 인터넷 허용 및 위치 Description 작성
 * info.plist
       ```
+      
       // http 통신 허용
       <key>NSAppTransportSecurity</key>
       <dict>
