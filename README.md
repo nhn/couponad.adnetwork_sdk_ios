@@ -27,7 +27,25 @@
       pod update
       ```
       
-#### 3. Objective-C 프로젝트 SDK 사용법
+#### 3. 앱 인터넷 허용 및 위치 Description 작성
+* info.plist
+      ```
+      // http 통신 허용
+      <key>NSAppTransportSecurity</key>
+      <dict>
+         <key>NSAllowsArbitraryLoads</key>
+         <true/>
+      </dict>
+      
+      // 위치 권한 획득 시 Description 작성
+      <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+      <string>내 위치를 확인하기 위해 위치 정보에 접근하려고 합니다.</string>
+      <key>NSLocationAlwaysUsageDescription</key>
+      <string>내 위치를 확인하기 위해 위치 정보에 접근하려고 합니다.</string>
+      <key>NSLocationWhenInUseUsageDescription</key>
+      <string>내 위치를 확인하기 위해 위치 정보에 접근하려고 합니다.</string>
+      ```
+#### 4. Objective-C 프로젝트 SDK 사용법
 * Source
     * AppDelegate.m
       ```
@@ -94,7 +112,7 @@
       }];
       ```
 
-#### 4. Swift 프로젝트 SDK 사용법
+#### 5. Swift 프로젝트 SDK 사용법
 * Source
     * AppDelegate
       ```
