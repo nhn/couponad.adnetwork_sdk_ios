@@ -87,7 +87,7 @@
             @end
 
             ```
-    * 배지 여부 가져오기
+    * 배지 값 가져오기
       ```
       [ADNetwork getBadgeType:^(NSString * _Nullable badgeType) {
           // badgeType의 string을 원하는 방법으로 활용
@@ -142,7 +142,7 @@
 
           }
           ```
-    * 배지 여부 가져오기
+    * 배지  가져오기
       ```
       ADNetwork.getBadgeType { (badgeType) in
          // badgeType의 string을 원하는 방법으로 활용
