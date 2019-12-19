@@ -18,7 +18,7 @@
       ```
     * Podfile
       ```
-      pod 'Couponad_ADNetwork', '~> 1.0.0'
+      pod 'Couponad_ADNetwork', '~> 1.0.2'
       ```
     * Pod install
       ```
